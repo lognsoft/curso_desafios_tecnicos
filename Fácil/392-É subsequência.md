@@ -19,8 +19,7 @@ A função deve retornar verdadeiro (`true`) se `s` é uma subsequência de `t`,
    **Saída:** `false`
    **Explicação:** Não é possível formar "axc" sem alterar a ordem original dos caracteres em "ahbgdc", pois "x" não aparece depois de "a" e antes de "c".
 
-### Como Implementar
-Você pode verificar se `s` é uma subsequência de `t` usando um algoritmo eficiente que percorre as duas strings sequencialmente. Mantenha um índice para cada string, aumentando o índice de `t` sempre e o de `s` apenas quando encontrar um caractere em `t` que corresponda ao caractere atual em `s`. Se ao final do processo todos os caracteres de `s` foram encontrados em `t` na ordem correta, então `s` é uma subsequência de `t`.
+### Solução Implementada
 
 ```csharp
 string s1 = "adge";
